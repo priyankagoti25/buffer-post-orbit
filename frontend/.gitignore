@@ -1,0 +1,19 @@
+# Dependencies
+node_modules
+
+# Build output
+dist
+*.tsbuildinfo
+
+# Secrets and local settings. Keep .env.example instead.
+.env
+.env.*
+!.env.example
+
+# Vercel local link folder
+.vercel
+
+# Logs and system files
+*.log
+npm-debug.log*
+.DS_Store
