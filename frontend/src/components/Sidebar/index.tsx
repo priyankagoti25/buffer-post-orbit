@@ -108,9 +108,9 @@ function SignedInNav({ onNavigate }: { onNavigate?: () => void }) {
           />
           <div className="min-w-0">
             <p className="truncate text-sm font-semibold">{user?.name}</p>
-            <p className="truncate text-xs font-semibold text-muted">
+            {/* <p className="truncate text-xs font-semibold text-muted">
               {user?.email}
-            </p>
+            </p> */}
           </div>
         </div>
         <button
